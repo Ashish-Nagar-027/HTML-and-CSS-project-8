@@ -1,0 +1,138 @@
+ 
+ /* 
+ ===================
+    css reset
+ ====================
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ button{
+    padding: 0.2rem 0.9rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(to right, #965cf2, #ba63eb, #d66de5, #ed7be0, #ff8adc);
+    color: white;
+    cursor: pointer;
+}
+
+.learn-more-btn {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.6rem 2rem;
+}
+button:hover{
+    background-image: linear-gradient(to right, #ff8adc, #ed7be0, #d66de5, #ba63eb, #965cf2);
+    color:#3E4794  ;
+}
+ /* 
+ ------------------
+  background svg
+ -----------------
+ */
+.main-div::before {
+    content: "";
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    height: 913px;
+    width: 913px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+ /* 
+ ===================
+    navbar
+ ====================
+ */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem 1rem 4rem;
+    font-size: 1.2rem;
+ }
+ 
+nav img {
+    width: 7rem;
+}
+
+.nav-items {
+    display: flex;
+    /* color: #3E4794; */
+    color: #431C57;
+    margin-left: -8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-item {
+    padding: 0.5rem 1.3rem;
+}
+
+
+.nav-item:hover {
+   background-color: #431C57;
+   border-radius: 2rem;
+   /* padding: 0.6rem 1.3rem; */
+   color: white;
+}
+
+
+ /* 
+ ===================
+    intro section
+ ====================
+ */
+
+.intro-section {
+    display: flex;
+}
+
+.left-section {
+    padding: 2rem 0rem 0rem 4rem;
+}
+
+.left-section h1 {
+    font-size: 4.5rem;
+    color: #3E4794;
+    padding: 3rem 0;
+    margin-top: 5rem;
+}
+.left-section h4 {
+    letter-spacing: 1px;
+    padding: 0rem 3rem 4rem 0;
+    font-weight: 100;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+/* 
+ =====================================
+    right side image section
+ =====================================
+ */
+
+ .vector-img,
+ .vector-dot {
+    position: absolute;
+    top: 40rem;
+ }
+
+ .vector-dot {
+    left: 32rem;
+   
+ }
+
+ .imgs-div img:nth-child(3) {
+    margin-right: 3rem;
+ }
