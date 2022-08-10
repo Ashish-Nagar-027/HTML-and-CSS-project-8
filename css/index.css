@@ -12,6 +12,11 @@
     font-family: 'Roboto', sans-serif;
  }
 
+ body {
+    max-width: 1570px;
+    max-height:1200px;
+ }
+
  button{
     padding: 0.2rem 0.9rem;
     border-radius: 2rem;
@@ -20,6 +25,8 @@
     color: white;
     cursor: pointer;
 }
+
+
 
 .learn-more-btn {
     font-size: 2rem;
